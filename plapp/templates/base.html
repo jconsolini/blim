@@ -1,0 +1,114 @@
+{% load pleft_tags %}
+{% load i18n %}
+
+<!doctype html>
+<html lang={{ request.LANGUAGE_CODE }}>
+<meta charset=utf=8>
+
+<title>{% block pagetitle %}{{ settings.SITE_NAME }}{% endblock %}</title>
+
+<meta http-equiv=X-UA-Compatible content='chrome=1'>
+<meta name=description content='{% blocktrans with settings.SITE_NAME as name %}Planning an appointment? {{ name }} helps you and the invitees to pick the right date and time.{% endblocktrans %}'>
+<meta property='og:title' content='{% blocktrans with settings.SITE_NAME as name %}{{ name }} the appointment planner{% endblocktrans %}'>
+<meta property='og:site_name' content='{{ settings.SITE_NAME }}'>
+<meta property='og:image' content='{{ settings.SCREENSHOT }}'>
+
+{% block meta %}{% endblock %}
+
+<link rel='image_src' href='{{ STATIC_URL }}images/logo.png'>
+<link rel='shortcut icon' href='{{ STATIC_URL }}images/favicon.ico'>
+
+<link rel=stylesheet href='{{ STATIC_URL }}style/site.css'>
+<!--[if ie]><link rel=stylesheet href='{{ STATIC_URL }}style/ie7.css'><![endif]-->
+{% block styles %}{% endblock %}
+
+<script src='{% url django.views.i18n.javascript_catalog %}?lang={{ request.LANGUAGE_CODE }}'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js'></script>
+<script src='{{ STATIC_URL }}script/menubar.js'></script>
+{% if settings.USERVOICE_ID %}
+<script>
+  var uvOptions = {};
+  (function() {
+    var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+    uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/{{ settings.USERVOICE_ID }}.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+  })();
+</script>
+{% endif %}
+{% block scripts %}{% endblock %}
+
+{% if not disable_analytics %}
+  {% google_analytics_snippet request %}
+{% endif %}
+
+{% block media %}{% endblock %}
+
+<body id='{% block pageid %}{% endblock %}'>
+
+<!--[if lt ie 7]>
+<div id=browser-notice>
+  <p><b>Internet Explorer 6 is not supported by {{ settings.SITE_NAME }}.</b>
+  <p>For the best experience and safer Web browsing, we recommend that you use one of these:
+  <p class=browsers>
+    <a href='http://www.google.com/chrome/' target=_blank>Google Chrome</a>
+    <a href='http://www.mozilla.com/' target=_blank>Mozilla Firefox</a>
+    <a href='http://www.microsoft.com/windows/internet-explorer/' target=_blank>Internet Explorer 8</a>
+    <a href='http://www.apple.com/safari/' target=_blank>Safari</a>
+</div> 
+<![endif]-->
+
+<div class=menu-bar>
+  {% if user %}<div class=account>
+    <span class=email>{{ user.email }}</span>
+    <a class=sign-out href=/signout>{% trans "Sign out" %}</a>
+  </div>
+  {% endif %}<div class=menu>
+    <h1><b>{{ settings.SITE_NAME }}</b> {% trans "the appointment planner" %}</h1>
+    <ul>
+      <li><a href=/>{% trans "New appointment" %}</a>
+      {% if settings.ABOUT_URL %}<li><a href='{{ settings.ABOUT_URL }}' class=external>{% blocktrans with site=settings.SITE_NAME %}About {{ site }}{% endblocktrans %}</a>{% endif %}
+      <li class=chrome-only><a href=https://chrome.google.com/webstore/detail/gaplcjgcfjoianghpkfkbgggdidedcid class='external app-link'>{% blocktrans with site=settings.SITE_NAME %}Install {{ site }} in Chrome{% endblocktrans %}</a>
+      <li class=separator>
+      <li><h2>{% trans "Language" %}{% for language in LANGUAGES %}</h2>
+      <li class='radio{% if language.0 == request.LANGUAGE_CODE %} checked{% endif %}'><a data-language={{ language.0 }}>{{ language.1 }}</a>{% endfor %}
+    </ul>
+  </div>{% if user %}
+  <div class=menu>
+    <h1>{% trans "My appointments" %}</h1>{% get_appointments %}
+    <ul>{% for appointment in appointments %}
+      <li class=radio><a href=/a?id={{ appointment.id }}>{{ appointment.get_title }}</a>{% endfor %}
+      <li class=separator>
+      <li><a href=/appointments>{% trans "All appointments" %}</a>
+    </ul>
+  </div>{% endif %}
+</div>
+
+<div id=title>{% block title %}{% endblock %}</div>
+
+<div id=content>
+  <div>
+    {% block content %}{% endblock %}
+  </div>
+</div>
+
+<!-- <div id=clockpuppets><img src='{{ STATIC_URL }}images/clockpuppets.png'></div> >
+
+{% block main_script %}
+{% endblock %}
+
+{% if settings.TRYOUT %}
+<div style='height:30px'></div>
+<div style='position: fixed; bottom: 0; left: 0; background: #484848; color: #fff; padding: 5px 10px; font-size: 12px'>
+  Thank you for using Pleft Tryout. <a href='javascript:UserVoice.showPopupWidget()' title='Feedback &amp; support' style='color: #feff61'>Let us know what you think.</a> Doesn’t it work for you? <a id=switch-link href=//www.pleft.com/ style='color: #feff61'>Switch to regular Pleft</a>
+</div>
+<script>
+  (function() {
+    var url = 'http://www.pleft.com/' + location.href.split('/')[3];
+    {% if user %}
+      url += (location.href.indexOf('?') == -1) ? '?' : '&';
+      url += 'u={{ user.email }}&p={{ user.password }}';
+    {% endif %}
+    document.getElementById('switch-link').href = url;
+  })();
+</script>
+{% endif %}

@@ -1,0 +1,106 @@
+# Pleft app client.
+# Copyright (C) 2010 Sander Dijkhuis <sander.dijkhuis@gmail.com>
+# This file is distributed under the same license as the Pleft package.
+# Sander Dijkhuis <sander.dijkhuis@gmail.com>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-24 19:57-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: static/script/caleftar.js:23
+msgid "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+msgstr ""
+
+#: static/script/caleftar.js:25
+msgid "Mon|Tue|Wed|Thu|Fri|Sat|Sun"
+msgstr ""
+
+#: static/script/caleftar.js:181
+msgid "today"
+msgstr ""
+
+#: static/script/caleftar.js:316
+msgid "Add a time:"
+msgstr ""
+
+#: static/script/form.js:32
+msgid "Please enter your email address."
+msgstr ""
+
+#: static/script/form.js:34
+msgid "This email address doesn‘t seem to be valid."
+msgstr ""
+
+#: static/script/form.js:61
+msgid "There seems to be an invalid email address in this list:"
+msgstr ""
+
+#: static/script/form.js:83
+msgid "Sorry, I do not fully understand your input yet."
+msgstr ""
+
+#: static/script/form.js:84
+msgid "Please check the form for any warnings."
+msgstr ""
+
+#: static/script/form.js:92
+msgid "Creating an appointment…"
+msgstr ""
+
+#: static/script/form.js:96
+msgid "Sorry, something went wrong."
+msgstr ""
+
+#: static/script/form.js:97
+msgid "This should not happen."
+msgstr ""
+
+#: static/script/form.js:100
+msgid "Click here to go back to the form."
+msgstr ""
+
+#: static/script/form.js:119
+msgid "Created!"
+msgstr ""
+
+#: static/script/form.js:120
+msgid "Please check your email."
+msgstr ""
+
+#: static/script/menubar.js:58
+msgid "Write a review"
+msgstr ""
+
+#: static/script/overview.js:183
+msgid "Automatically saved on "
+msgstr ""
+
+#: static/script/overview.js:192
+msgid "Sorry, your availability could not be saved."
+msgstr ""
+
+#: static/script/overview.js:193
+msgid "Please try again."
+msgstr ""
+
+#: static/script/overview.js:292
+msgid "Not filled in yet."
+msgstr ""
+
+#: static/script/overview.js:334
+msgid "Done!"
+msgstr ""
+
+#: static/script/overview.js:340
+msgid "An error occured."
+msgstr ""

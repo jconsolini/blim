@@ -1,0 +1,198 @@
+# Pleft app client.
+# Copyright (C) 2010 Sander Dijkhuis <sander.dijkhuis@gmail.com>
+# This file is distributed under the same license as the Pleft package.
+# Sander Dijkhuis <sander.dijkhuis@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pleft\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-24 19:57-0600\n"
+"PO-Revision-Date: 2011-01-25 21:06+0000\n"
+"Last-Translator: sander <sander.dijkhuis@gmail.com>\n"
+"Language-Team: Italian <>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: static/script/caleftar.js:23
+msgid "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+msgstr "Gen|Feb|Mar|Apr|Mag|Giu|Lug|Ago|Set|Ott|Nov|Dic"
+
+#: static/script/caleftar.js:25
+msgid "Mon|Tue|Wed|Thu|Fri|Sat|Sun"
+msgstr "Lun|Mar|Mer|Gio|Ven|Sab|Dom"
+
+#: static/script/caleftar.js:181
+msgid "today"
+msgstr ""
+
+#: static/script/caleftar.js:316
+msgid "Add a time:"
+msgstr ""
+
+#: static/script/form.js:32
+msgid "Please enter your email address."
+msgstr "Per favore inserire il tuo indirizzo email."
+
+#: static/script/form.js:34
+msgid "This email address doesn‘t seem to be valid."
+msgstr "Questo indirizzo email non sembra essere valido."
+
+#: static/script/form.js:61
+msgid "There seems to be an invalid email address in this list:"
+msgstr "Sembra che ci sia un indirizzo email non valido in questa lista:"
+
+#: static/script/form.js:83
+msgid "Sorry, I do not fully understand your input yet."
+msgstr "Spiacente, ma non capisco il tuo input."
+
+#: static/script/form.js:84
+msgid "Please check the form for any warnings."
+msgstr "Per favore controllare la scheda per eventuali avvertimenti."
+
+#: static/script/form.js:92
+msgid "Creating an appointment…"
+msgstr "Creare un appuntamento…"
+
+#: static/script/form.js:96
+msgid "Sorry, something went wrong."
+msgstr "Spiacente, si è verificato un errore."
+
+#: static/script/form.js:97
+msgid "This should not happen."
+msgstr "Questo non dovrebbe succedere."
+
+#: static/script/form.js:100
+msgid "Click here to go back to the form."
+msgstr "Clicca qui per tornare alla scheda."
+
+#: static/script/form.js:119
+msgid "Created!"
+msgstr "Creato!"
+
+#: static/script/form.js:120
+msgid "Please check your email."
+msgstr "Per favore controlla la tua email."
+
+#: static/script/menubar.js:58
+msgid "Write a review"
+msgstr ""
+
+#: static/script/overview.js:183
+msgid "Automatically saved on "
+msgstr "Salvato automaticamente su "
+
+#: static/script/overview.js:192
+msgid "Sorry, your availability could not be saved."
+msgstr ""
+
+#: static/script/overview.js:193
+msgid "Please try again."
+msgstr ""
+
+#: static/script/overview.js:292
+msgid "Not filled in yet."
+msgstr ""
+
+#: static/script/overview.js:334
+#, fuzzy
+msgid "Done!"
+msgstr "Fatto!"
+
+#: static/script/overview.js:340
+msgid "An error occured."
+msgstr ""
+
+#~ msgid "Sign out"
+#~ msgstr "Uscire"
+
+#~ msgid "New appointment"
+#~ msgstr "Nuovi appuntamenti"
+
+#~ msgid "Loading…"
+#~ msgstr "Inviare…"
+
+#~ msgid "All appointments"
+#~ msgstr "Tutti gli appuntamenti"
+
+#~ msgid "My appointments"
+#~ msgstr "Miei appuntamenti"
+
+#~ msgid "Selected times:"
+#~ msgstr "Orari scelti:"
+
+#~ msgid "Send invitations"
+#~ msgstr "Invia inviti"
+
+#~ msgid "Example invitation email"
+#~ msgstr "Esempio di email di invito"
+
+#~ msgid "Example appointment overview"
+#~ msgstr "Esempio di panoramica degli appuntamenti"
+
+#~ msgid ""
+#~ "This appointment could not be found or is not meant to be seen by you. We "
+#~ "apologize for the inconvenience."
+#~ msgstr ""
+#~ "Questo appuntamento non può essere trovato o non accessibile per te. Ci "
+#~ "scusiamo per l’incovenienza."
+
+#~ msgid "Appointment"
+#~ msgstr "Appuntamento"
+
+#~ msgid "Proposed dates"
+#~ msgstr "Date proposte"
+
+#~ msgid "Participants"
+#~ msgstr "Partecipanti"
+
+#~ msgid "Refresh"
+#~ msgstr "Aggiorna"
+
+#~ msgid "Email addresses of the invitees (only visible to you)"
+#~ msgstr "Indirizzi email degli invitati (visibile solo a te)"
+
+#~ msgid "Invite another participant"
+#~ msgstr "Invita un altro partecipante"
+
+#~ msgid "Name <email@address.example>"
+#~ msgstr "Nome <email@indirizzo.example>"
+
+#~ msgid "Send invitation"
+#~ msgstr "Invia invito"
+
+#~ msgid "Please enter an address."
+#~ msgstr "Per favore inserire un indirizzo."
+
+#~ msgid "This email address does not seem to be correct."
+#~ msgstr "Questo indirizzo email non sembra essere corretto"
+
+#~ msgid "Sending…"
+#~ msgstr "Inviare…"
+
+#~ msgid "Resend invitations"
+#~ msgstr "Invia inviti "
+
+#~ msgid "Send invitation again"
+#~ msgstr "Invia invito "
+
+#~ msgid "Propose another date"
+#~ msgstr "Proponi un altra data"
+
+#~ msgid "Date:"
+#~ msgstr "Data:"
+
+#~ msgid "Time:"
+#~ msgstr "Orario:"
+
+#~ msgid "Add date"
+#~ msgstr "Aggiungi data"
+
+#~ msgid "This does not seem to be a valid date."
+#~ msgstr "Questo non sembra essere una data valida."
+
+#~ msgid "This does not seem to be a valid time."
+#~ msgstr "Questo non sembra essere un orario valido."

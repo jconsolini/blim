@@ -1,0 +1,79 @@
+{% extends 'plapp/base.html' %}
+
+{% load appointment_tags %}
+{% load pleft_tags %}
+{% load i18n %}
+
+{% block media %}
+  {% for tool in tools %}{{ tool.form.media }}{% endfor %}
+{% endblock %}
+
+{% block pageid %}appointment{% endblock %}
+
+{% block scripts %}
+  <script src={{ STATIC_URL }}script/overview.js></script>
+  <script>
+    id = {{ id }};
+  </script>
+{% endblock %}
+
+{% block styles %}
+  <link rel=stylesheet href='{{ STATIC_URL }}style/appointment.css'>
+{% endblock %}
+
+{% block title %}
+  <h1>{% trans 'Appointment overview' %}</h1>
+{% endblock %}
+
+{% block content %}
+  <div id=overview-content class=overview>
+    <p class=not-found>{% trans 'This appointment could not be found or is not meant to be seen by you. We apologize for the inconvenience.' %}
+    <div class=side-help>
+      <p>{% trans 'Use the buttons to indicate when you’re available. You can also enter comments.' %}
+      <p>{% trans 'View the availability of the other participants by clicking on their names or on the dates at the left side.' %}
+    </div>
+    <div class=appointment>
+      <div class=description></div>
+      <table>
+        <thead>
+          <tr>
+            <th>{% trans 'Proposed dates' %}
+            <th>
+            <th>{% trans 'Participants' %}
+        <tbody>
+          <tr>
+            <td class=dates>
+              <ul class=select></ul>
+            <td class=availability>
+            <td class=people>
+              <ul class=select></ul>
+      </table>
+      <p class=save>
+        <button disabled>{% trans 'Done' %}</button>
+        <span class=status></span>
+      <div class=tools>
+        {% for tool in tools %}
+          <form class={{ tool.name }} action={{ tool.target }}>
+            <h3>{{ tool.title }}</h3>
+            <div>
+              {% for field in tool.form %}
+                {% if field.is_hidden %}
+                  {{ field }}
+                {% else %}
+                  {{ field.label_tag }}: {{ field }}
+                {% endif %}
+              {% endfor %}
+              <button type=submit>{{ tool.submit_text }}</button>
+              <span class=success></span>
+              <span class=error></span>
+            </div>
+          </form>
+        {% endfor %}
+        <div class=email-addresses>
+          <h3>{% trans 'Email addresses of the invitees (only visible to you)' %}</h3>
+          <p><textarea readonly></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,237 @@
+# Pleft app client.
+# Copyright (C) 2010 Sander Dijkhuis <sander.dijkhuis@gmail.com>
+# This file is distributed under the same license as the Pleft package.
+# Sander Dijkhuis <sander.dijkhuis@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pleft\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-24 19:57-0600\n"
+"PO-Revision-Date: 2012-05-22 14:31+0100\n"
+"Last-Translator: Laura Arjona Reina <larjona99@gmail.com>\n"
+"Language-Team: Spanish (Spain) (http://www.transifex.net/projects/p/pleft/team/es_ES/)\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: static/script/caleftar.js:23
+msgid "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+msgstr "ene|feb|mar|abr|may|jun|jul|ago|sep|oct|nov|dic"
+
+#: static/script/caleftar.js:25
+msgid "Mon|Tue|Wed|Thu|Fri|Sat|Sun"
+msgstr "lun|mar|mié|jue|vie|sáb|dom"
+
+#: static/script/caleftar.js:181
+msgid "today"
+msgstr "hoy"
+
+#: static/script/caleftar.js:316
+msgid "Add a time:"
+msgstr "Agregar una hora:"
+
+#: static/script/form.js:32
+msgid "Please enter your email address."
+msgstr "Por favor introduzca su dirección de correo electrónico."
+
+#: static/script/form.js:34
+msgid "This email address doesn‘t seem to be valid."
+msgstr "Esta dirección de correo electrónico parece que no es válida."
+
+#: static/script/form.js:61
+msgid "There seems to be an invalid email address in this list:"
+msgstr "Parece que hay una dirección de correo electrónico no válida en esta lista:"
+
+#: static/script/form.js:83
+msgid "Sorry, I do not fully understand your input yet."
+msgstr "Lo siento, aún no entiendo completamente su petición."
+
+#: static/script/form.js:84
+msgid "Please check the form for any warnings."
+msgstr "Por favor compruebe si hay alguna advertencia en el formulario."
+
+#: static/script/form.js:92
+msgid "Creating an appointment…"
+msgstr "Creando una cita..."
+
+#: static/script/form.js:96
+msgid "Sorry, something went wrong."
+msgstr "Lo siento, algo fue mal."
+
+#: static/script/form.js:97
+msgid "This should not happen."
+msgstr "Esto no debería pasar."
+
+#: static/script/form.js:100
+msgid "Click here to go back to the form."
+msgstr "Haga clic aquí para volver al formulario."
+
+#: static/script/form.js:119
+msgid "Created!"
+msgstr "¡Creada!"
+
+#: static/script/form.js:120
+msgid "Please check your email."
+msgstr "Por favor compruebe su correo electrónico."
+
+#: static/script/menubar.js:58
+msgid "Write a review"
+msgstr "Escribir una revisión"
+
+#: static/script/overview.js:183
+msgid "Automatically saved on "
+msgstr "Guardado automáticamente a las  "
+
+#: static/script/overview.js:192
+msgid "Sorry, your availability could not be saved."
+msgstr "Lo siento, su disponibilidad no pudo ser guardada."
+
+#: static/script/overview.js:193
+msgid "Please try again."
+msgstr "Por favor inténtelo otra vez."
+
+#: static/script/overview.js:292
+msgid "Not filled in yet."
+msgstr "Aún no rellenado"
+
+#: static/script/overview.js:334
+msgid "Done!"
+msgstr "¡Hecho!"
+
+#: static/script/overview.js:340
+msgid "An error occured."
+msgstr "Ocurrió un error."
+
+#~ msgid "Sign out"
+#~ msgstr "Salir"
+
+#~ msgid "New appointment"
+#~ msgstr "Nueva cita"
+
+#~ msgid "About Pleft"
+#~ msgstr "Sobre Pleft"
+
+#~ msgid "Install Pleft in Chrome"
+#~ msgstr "Instalar Pleft en Chrome"
+
+#~ msgid "Language"
+#~ msgstr "Idioma"
+
+#~ msgid "the appointment planner"
+#~ msgstr "el planificador de citas"
+
+#~ msgid "Loading…"
+#~ msgstr "Cargando..."
+
+#~ msgid "All appointments"
+#~ msgstr "Todas las citas "
+
+#~ msgid "Menu temporarily unavailaible."
+#~ msgstr "Menú no disponible temporalmente."
+
+#~ msgid "My appointments"
+#~ msgstr "Mis citas"
+
+#~ msgid "Selected times:"
+#~ msgstr "Horas seleccionadas:"
+
+#~ msgid "No times are selected yet."
+#~ msgstr "No se han seleccionado horas aún."
+
+#~ msgid "Send invitations"
+#~ msgstr "Enviar invitaciones"
+
+#~ msgid "Pleft: the presentation!"
+#~ msgstr "Pleft: ¡la presentación!"
+
+#~ msgid "Example invitation email"
+#~ msgstr "Ejemplo de correo electrónico de invitación"
+
+#~ msgid "Example appointment overview"
+#~ msgstr "Ejemplo de vista general de cita"
+
+#~ msgid ""
+#~ "This appointment could not be found or is not meant to be seen by you. We "
+#~ "apologize for the inconvenience."
+#~ msgstr ""
+#~ "No se encuentra esta cita o parece que no ha sido revisada por usted. "
+#~ "Disculpe las molestias."
+
+#~ msgid ""
+#~ "Use the buttons to indicate when you’re available. You can also enter "
+#~ "comments."
+#~ msgstr ""
+#~ "Use los botones para indicar cuándo está usted disponible. Puede además "
+#~ "introducir comentarios."
+
+#~ msgid ""
+#~ "View the availability of the other participants by clicking on their "
+#~ "names or on the dates at the left side."
+#~ msgstr ""
+#~ "Vea la disponibilidad de otros participantes haciendo clic en sus nombres "
+#~ "o en las fechas en el lado izquierdo."
+
+#~ msgid "Appointment"
+#~ msgstr "Cita"
+
+#~ msgid "Proposed dates"
+#~ msgstr "Fechas propuestas"
+
+#~ msgid "Participants"
+#~ msgstr "Participantes"
+
+#~ msgid "Refresh"
+#~ msgstr "Actualizar"
+
+#~ msgid "Email addresses of the invitees (only visible to you)"
+#~ msgstr ""
+#~ "Direcciones de correo electrónico de los invitados (sólo visible para "
+#~ "usted)"
+
+#~ msgid "Invite another participant"
+#~ msgstr "Invitar a otro participante"
+
+#~ msgid "Name <email@address.example>"
+#~ msgstr "Nombre <email@address.example>"
+
+#~ msgid "Send invitation"
+#~ msgstr "Enviar invitación"
+
+#~ msgid "Please enter an address."
+#~ msgstr "Por favor introduzca una dirección."
+
+#~ msgid "This email address does not seem to be correct."
+#~ msgstr "Esta dirección de correo electrónico parece que no es correcta."
+
+#~ msgid "Sending…"
+#~ msgstr "Enviando..."
+
+#~ msgid "Resend invitations"
+#~ msgstr "Reenviar invitaciones"
+
+#~ msgid "Select an invitee"
+#~ msgstr "Seleccionar un invitado"
+
+#~ msgid "Send invitation again"
+#~ msgstr "Enviar invitación otra vez"
+
+#~ msgid "Propose another date"
+#~ msgstr "Proponer otra fecha"
+
+#~ msgid "Date:"
+#~ msgstr "Fecha:"
+
+#~ msgid "Time:"
+#~ msgstr "Hora:"
+
+#~ msgid "Add date"
+#~ msgstr "Agregar fecha"
+
+#~ msgid "This does not seem to be a valid date."
+#~ msgstr "Esto no parece una fecha válida."
+
+#~ msgid "This does not seem to be a valid time."
+#~ msgstr "Esto no parece una hora válida."

@@ -1,0 +1,235 @@
+# Pleft app client.
+# Copyright (C) 2010 Sander Dijkhuis <sander.dijkhuis@gmail.com>
+# This file is distributed under the same license as the Pleft package.
+# Sander Dijkhuis <sander.dijkhuis@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pleft\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-24 19:57-0600\n"
+"PO-Revision-Date: 2011-01-25 21:06+0000\n"
+"Last-Translator: sander <sander.dijkhuis@gmail.com>\n"
+"Language-Team: Dutch <>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: static/script/caleftar.js:23
+msgid "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+msgstr "jan|feb|mrt|apr|mei|jun|jul|aug|sep|okt|nov|dec"
+
+#: static/script/caleftar.js:25
+msgid "Mon|Tue|Wed|Thu|Fri|Sat|Sun"
+msgstr "ma|di|wo|do|vr|za|zo"
+
+#: static/script/caleftar.js:181
+msgid "today"
+msgstr "nu"
+
+#: static/script/caleftar.js:316
+msgid "Add a time:"
+msgstr "Een tijdstip toevoegen:"
+
+#: static/script/form.js:32
+msgid "Please enter your email address."
+msgstr "Voer alstublieft uw e-mailadres in."
+
+#: static/script/form.js:34
+msgid "This email address doesn‘t seem to be valid."
+msgstr "Dit e-mailadres lijkt ongeldig te zijn."
+
+#: static/script/form.js:61
+msgid "There seems to be an invalid email address in this list:"
+msgstr "Er lijkt een ongeldig e-mailadres in deze lijst te staan:"
+
+#: static/script/form.js:83
+msgid "Sorry, I do not fully understand your input yet."
+msgstr "Helaas begrijp ik uw invoer nog niet volledig."
+
+#: static/script/form.js:84
+msgid "Please check the form for any warnings."
+msgstr "Kijk alstublieft of er ergens een waarschuwing staat."
+
+#: static/script/form.js:92
+msgid "Creating an appointment…"
+msgstr "Afspraak maken…"
+
+#: static/script/form.js:96
+msgid "Sorry, something went wrong."
+msgstr "Het spijt ons, er lijkt iets mis te zijn gegaan."
+
+#: static/script/form.js:97
+msgid "This should not happen."
+msgstr "Dit hoort niet te gebeuren."
+
+#: static/script/form.js:100
+msgid "Click here to go back to the form."
+msgstr "Klik hier om terug te gaan naar het formulier."
+
+#: static/script/form.js:119
+msgid "Created!"
+msgstr "Aangemaakt!"
+
+#: static/script/form.js:120
+msgid "Please check your email."
+msgstr "Kijk in uw e-mail om door te gaan."
+
+#: static/script/menubar.js:58
+msgid "Write a review"
+msgstr "Recensie schrijven"
+
+#: static/script/overview.js:183
+msgid "Automatically saved on "
+msgstr "Automatisch opgeslagen op "
+
+#: static/script/overview.js:192
+msgid "Sorry, your availability could not be saved."
+msgstr "Excuses, je beschikbaarheid kan niet worden opgeslagen."
+
+#: static/script/overview.js:193
+msgid "Please try again."
+msgstr "Probeer het nogmaals."
+
+#: static/script/overview.js:292
+msgid "Not filled in yet."
+msgstr "Nog niet ingevuld."
+
+#: static/script/overview.js:334
+msgid "Done!"
+msgstr "Klaar!"
+
+#: static/script/overview.js:340
+msgid "An error occured."
+msgstr ""
+
+#~ msgid "Sign out"
+#~ msgstr "Uitloggen"
+
+#~ msgid "New appointment"
+#~ msgstr "Nieuwe afspraak"
+
+#~ msgid "About Pleft"
+#~ msgstr "Over Pleft"
+
+#~ msgid "Install Pleft in Chrome"
+#~ msgstr "Pleft installeren in Chrome"
+
+#~ msgid "Language"
+#~ msgstr "Taal"
+
+#~ msgid "the appointment planner"
+#~ msgstr "de afsprakenplanner"
+
+#~ msgid "Loading…"
+#~ msgstr "Laden…"
+
+#~ msgid "All appointments"
+#~ msgstr "Alle afspraken"
+
+#~ msgid "Menu temporarily unavailaible."
+#~ msgstr "Het menu is tijdelijk niet beschikbaar."
+
+#~ msgid "My appointments"
+#~ msgstr "Mijn afspraken"
+
+#~ msgid "Selected times:"
+#~ msgstr "Tijdstippen:"
+
+#~ msgid "No times are selected yet."
+#~ msgstr "Er zijn nog geen tijdstippen geselecteerd."
+
+#~ msgid "Send invitations"
+#~ msgstr "Uitnodigingen verzenden"
+
+#~ msgid "Pleft: the presentation!"
+#~ msgstr "Pleft: de presentatie!"
+
+#~ msgid "Example invitation email"
+#~ msgstr "Voorbeelduitnodigingsmail"
+
+#~ msgid "Example appointment overview"
+#~ msgstr "Voorbeeldafsprakenoverzicht"
+
+#~ msgid ""
+#~ "This appointment could not be found or is not meant to be seen by you. We "
+#~ "apologize for the inconvenience."
+#~ msgstr ""
+#~ "Deze afspraak kon niet worden gevonden of is niet voor u bedoeld. Excuses "
+#~ "voor het ongemak."
+
+#~ msgid ""
+#~ "Use the buttons to indicate when you’re available. You can also enter "
+#~ "comments."
+#~ msgstr ""
+#~ "Gebruik de knoppen om aan te geven wanneer u beschikbaar bent. U kunt ook "
+#~ "commentaar invoegen."
+
+#~ msgid ""
+#~ "View the availability of the other participants by clicking on their "
+#~ "names or on the dates at the left side."
+#~ msgstr ""
+#~ "Bekijk de aanwezigheid van de andere deelnemers door op hun namen te "
+#~ "klikken of op de datums aan de linkerkant."
+
+#~ msgid "Appointment"
+#~ msgstr "Afspraak"
+
+#~ msgid "Proposed dates"
+#~ msgstr "Voorgestelde data"
+
+#~ msgid "Participants"
+#~ msgstr "Deelnemers"
+
+#~ msgid "Refresh"
+#~ msgstr "Herladen"
+
+#~ msgid "Email addresses of the invitees (only visible to you)"
+#~ msgstr "E-mailadressen van de genodigden (alleen voor u zichtbaar)"
+
+#~ msgid "Invite another participant"
+#~ msgstr "Een nieuwe deelnemer uitnodigen"
+
+#~ msgid "Name <email@address.example>"
+#~ msgstr "Naam <e_mail.adres@example.com>"
+
+#~ msgid "Send invitation"
+#~ msgstr "Uitnodiging verzenden"
+
+#~ msgid "Please enter an address."
+#~ msgstr "Voer alstublieft een e-mailadres in."
+
+#~ msgid "This email address does not seem to be correct."
+#~ msgstr "Dit e-mailadres lijkt ongeldig te zijn."
+
+#~ msgid "Sending…"
+#~ msgstr "Verzenden…"
+
+#~ msgid "Resend invitations"
+#~ msgstr "De uitnodigingen nogmaals verzenden"
+
+#~ msgid "Select an invitee"
+#~ msgstr "Selecteer een genodigde"
+
+#~ msgid "Send invitation again"
+#~ msgstr "Uitnodiging nogmaals versturen"
+
+#~ msgid "Propose another date"
+#~ msgstr "Een andere datum voorstellen"
+
+#~ msgid "Date:"
+#~ msgstr "Datum:"
+
+#~ msgid "Time:"
+#~ msgstr "Tijd:"
+
+#~ msgid "Add date"
+#~ msgstr "Datum toevoegen"
+
+#~ msgid "This does not seem to be a valid date."
+#~ msgstr "Dit lijkt een ongeldige datum te zijn."
+
+#~ msgid "This does not seem to be a valid time."
+#~ msgstr "Dit lijkt een ongeldig tijdstip te zijn."

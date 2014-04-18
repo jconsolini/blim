@@ -1,0 +1,140 @@
+body {
+  background: #abf39f url(../images/texture/green.png);
+}
+#title {
+  background-color: #4abc37;
+}
+.appointment {
+  border-color: #85be7c;
+}
+
+#presentation-button-p {
+  margin-top: 5px;
+}
+#presentation-button {
+  cursor: pointer;
+}
+
+.in-popup img {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #95be7c;
+  padding: 0;
+}
+.side-help .popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.5);
+  padding-top: 48px;
+  z-index: 99;
+}
+.side-help .popup.open {
+  display: block;
+}
+.side-help .popup > * {
+  width: 860px;
+  margin: 0 auto !important;
+  background: #222;
+  color: #fff;
+}
+.side-help .popup > p {
+  background: transparent;
+  height: 0;
+}
+.side-help .popup > p a {
+  margin-top: -16px;
+  margin-right: -8px;
+  padding: 8px;
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  font-size: 36px;
+  cursor: pointer;
+  z-index: 3;
+  position: relative;
+}
+.side-help .popup > h1 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px;
+}
+.side-help .popup > div {
+  text-align: center;
+  padding: 32px 8px;
+}
+
+#create .field {
+  padding: 5px 10px;
+  padding-top: 10px;
+}
+#create .field dl {
+  margin: 0;
+}
+#create .field dt {
+  float: left;
+}
+#create .field dd {
+  margin-left: 110px;
+}
+#create dd textarea, #create dd input[type=text] {
+  width: 439px;
+  border: 0;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 13px;
+  padding: 5px;
+  resize: none;
+}
+#create dd textarea {
+  height: 47px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow-y: hidden;
+  resize: none;
+}
+#create dd input[type=text] {
+  margin-top: -5px;
+}
+#create .field .help {
+  font-size: 11px;
+}
+#create .field label {
+  cursor: pointer;
+}
+#create #button-block {
+  margin-top: 10px;
+  background-color: #edf0f4;
+  padding: 10px;
+}
+#create .field.with-error {
+  background: #ecf13a;
+  border-bottom: 2px solid #f1c03a;
+}
+#create #button-block.with-error {
+  border-bottom: 0;
+  background: #ecf13a;
+}
+#create .field .error {
+  display: none;
+}
+#create .field.with-error .error {
+  margin-top: 5px;
+  font-weight: bold;
+  display: block;
+}
+#button-block p {
+  margin: 0;
+}
+#button {
+  font-weight: bold;
+}
+
+.date-time-picker {
+  margin-top: -10px;
+}
